@@ -4,13 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="1250dp"
-        android:layout_height="250dp"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        app:srcCompat="@drawable/ic_launcher" />
+    <WebView
+        android:layout_width="match_parent"
+        android:id="@+id/webView"
+        android:layout_height="match_parent" />
 </LinearLayout>
